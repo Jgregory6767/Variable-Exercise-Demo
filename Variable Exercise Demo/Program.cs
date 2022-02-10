@@ -6,7 +6,10 @@ namespace Variable_Exercise_Demo
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            string dogName = "Ralph";
+            int dogAge = 10;
+            Console.WriteLine ($"my dog's name is {dogName}, He is {dogAge} years old");
         }
     }
 }
+
